@@ -27,95 +27,15 @@ This project automatically provisions a static website hosting infrastructure us
 ```
 ---
 
-## 📁 Estrutura de Arquivos Terraform
-```
-# main.tf
-provider "aws" {
-  region = var.region
-}
+## ✅ Estrutura de Arquivos
 
-resource "aws_s3_bucket" "site" {
-  bucket = var.bucket_name
-  website {
-    index_document = "index.html"
-  }
-  acl = "public-read"
-}
+/projects/static_web_s3_cloudfront/
+├── main.tf
+├── variables.tf
+├── outputs.tf
+├── terraform.tfvars
+├── README.md
 
-resource "aws_s3_bucket_policy" "allow_public" {
-  bucket = aws_s3_bucket.site.id
-  policy = jsonencode({
-    Statement = [{
-      Effect    = "Allow"
-      Principal = "*"
-      Action    = ["s3:GetObject"]
-      Resource  = "${aws_s3_bucket.site.arn}/*"
-    }]
-  })
-}
-
-resource "aws_cloudfront_distribution" "cdn" {
-  origin {
-    domain_name = aws_s3_bucket.site.website_endpoint
-    origin_id   = "s3Origin"
-    custom_origin_config {
-      http_port              = 80
-      https_port             = 443
-      origin_protocol_policy = "http-only"
-    }
-  }
-
-  enabled             = true
-  default_root_object = "index.html"
-  default_cache_behavior {
-    target_origin_id       = "s3Origin"
-    viewer_protocol_policy = "redirect-to-https"
-    allowed_methods        = ["GET", "HEAD"]
-    cached_methods         = ["GET", "HEAD"]
-    forwarded_values {
-      query_string = false
-      cookies {
-        forward = "none"
-      }
-    }
-  }
-
-  viewer_certificate {
-    cloudfront_default_certificate = true
-  }
-}
-```
----
-
-## 📄 variables.tf
-```
-variable "region" {
-  default = "us-east-1"
-}
-
-variable "bucket_name" {
-  description = "Nome do bucket S3"
-}
-```
----
-
-## 📄 terraform.tfvars
-```
-bucket_name = "meusite-estatico-demo"
-```
----
-
-## 📄 outputs.tf
-```  
-output "site_url" {
-  value = aws_s3_bucket.site.website_endpoint
-}
-
-output "cdn_url" {
-  value = aws_cloudfront_distribution.cdn.domain_name
-}
-```
----
 
 ## ✅ Deploy
 ```

@@ -45,7 +45,7 @@ Resources:
 ```
 ---
 
-##🚀 Deploy via AWS Console
+## 🚀 Deploy via AWS Console
 
 1. Acesse AWS CloudFormation Console
 

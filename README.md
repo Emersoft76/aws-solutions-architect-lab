@@ -108,24 +108,28 @@ This repository is designed as an educational and validation lab for professiona
 
 ## 🧭 Diagrama ASCII • ASCII Architecture Map
 
-→ ascii_architecture.md
+→ [ascii_architecture.md](./ascii/ascii_architecture.md)
 
 ---
 
 ## 🧠 Próximos Passos • Next Steps
 
-    Modularizar os projetos Terraform
+* Modularizar os projetos Terraform
 
-    Adicionar pipelines CI/CD (GitHub Actions + CodePipeline)
+* Adicionar pipelines CI/CD (GitHub Actions + CodePipeline)
 
-    Expandir o uso de containers (ECS, EKS)
+* Expandir o uso de containers (ECS, EKS)
 
-    Publicar documentação com GitHub Pages (✅ já configurado)
+* Publicar documentação com GitHub Pages (✅ já configurado)
 
-  ---
+---
 
-  Desenvolvido por [@Emersoft76](https://github.com/Emersoft76)  
-_Gestor de Redes formado pela Universidade Paulista (UNIP), Brasil._  
-_Foco em arquiteturas seguras, escaláveis e práticas em ambientes de nuvem (AWS)._  
+## 🧠 Rodapé | Footer
 
-Projetos idealizados com esmero e critérios técnicos, com ênfase em validação prática para atuação como **Solutions Architect**.
+<div align="center">
+
+_"Do cabeamento físico ao provisionamento em nuvem, a conectividade sempre foi a base das melhores soluções."_  
+**Formado em Gerenciamento de Redes de Computadores – UNIP (Brasília/Brasil), 2009.**  
+**Soluções modernas com base sólida em redes, cloud e automação.**
+
+</div>

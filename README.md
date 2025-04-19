@@ -92,7 +92,8 @@ This repository is designed as an educational and validation lab for professiona
 ├── 📁 [docs](./docs/)
 │   ├── 📄 [monitoring_logging.md](./docs/monitoring_logging.md)
 │   ├── 📄 [security_best_practices.md](./docs/security_best_practices.md)
-│   └── 📄 [scenario_architecture_examples.md](./docs/scenario_architecture_examples.md)
+│   ├── 📄 [scenario_architecture_examples.md](./docs/scenario_architecture_examples.md)
+│   └── 📄 [skills_mapped.md](./docs/skills_mapped.md)
 ├── 📁 [projects](./projects/)
 │   ├── 📁 [static_web_s3_cloudfront](./projects/static_web_s3_cloudfront/)
 │   ├── 📁 [ec2_nginx_auto_scale](./projects/ec2_nginx_auto_scale/)
@@ -103,7 +104,7 @@ This repository is designed as an educational and validation lab for professiona
 ├── 📁 [ascii](./ascii/)
 │   └── 📄 [ascii_architecture.md](./ascii/ascii_architecture.md)
 └── 📁 [.github/workflows](./.github/workflows/)
-     └── 📄 Integrações e automações (ex: GitHub Pages)
+    └── 📄 Integrações e automações (ex: GitHub Pages)
 ---
 
 ## 🧭 Diagrama ASCII • ASCII Architecture Map

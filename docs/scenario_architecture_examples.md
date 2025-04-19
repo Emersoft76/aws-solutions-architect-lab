@@ -41,7 +41,7 @@ This document outlines several architecture scenarios based on AWS best practice
 ---
 
 ## 📐 Diagrama Exemplo: Arquitetura Web Redundante
-
+```
         [User]         
            |              
    +---------------+       
@@ -60,6 +60,7 @@ This document outlines several architecture scenarios based on AWS best practice
 |  Private Subnet   |     
 |  + RDS + Logs     |     
 +-------------------+     
+```
 ---
 
 ## 🎯 Considerações Finais

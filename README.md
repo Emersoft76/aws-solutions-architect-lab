@@ -36,11 +36,13 @@ This repository is designed as an educational and validation lab for professiona
 |--------------------|-----------------------------------------|
 | ☁️ AWS             | [aws.amazon.com](https://aws.amazon.com) |
 | ⚙️ Terraform       | [terraform.io](https://www.terraform.io) |
-| 🐧 Ubuntu Server   | [ubuntu.com/server](https://ubuntu.com/server) |
-| 📡 CloudWatch      | [docs.aws.amazon.com/cloudwatch](https://docs.aws.amazon.com/cloudwatch) |
 | 📘 IAM             | [docs.aws.amazon.com/iam](https://docs.aws.amazon.com/iam) |
 | 📂 S3              | [docs.aws.amazon.com/s3](https://docs.aws.amazon.com/s3) |
+| 📡 CloudWatch      | [docs.aws.amazon.com/cloudwatch](https://docs.aws.amazon.com/cloudwatch) |
+| 🔔 SNS             | [docs.aws.amazon.com/sns](https://docs.aws.amazon.com/sns) |
 | 🚀 Lambda          | [docs.aws.amazon.com/lambda](https://docs.aws.amazon.com/lambda) |
+| 🛠️ RDS             | [docs.aws.amazon.com/rds](https://docs.aws.amazon.com/rds) |
+| 🌐 API Gateway     | [docs.aws.amazon.com/apigateway](https://docs.aws.amazon.com/apigateway) |
 ```
 ---
 
@@ -79,6 +81,7 @@ Veja a representação visual completa de todos os componentes criados neste lab
 🤝 Contato & Créditos • Contact & Credits
 
 Desenvolvido por [@Emersoft76](https://github.com/Emersoft76)  
-_Gestor de Redes com foco em soluções em nuvem modernas, seguras e escaláveis._
+_Gestor de Redes formado pela Universidade Paulista (UNIP), Brasil._  
+_Foco em arquiteturas seguras, escaláveis e práticas em ambientes de nuvem (AWS)._  
 
-Projetos idealizados e documentados com base em critérios técnicos reais, organização educacional e validação de competências para o mercado de Cloud.
+Projetos idealizados com esmero e critérios técnicos, com ênfase em validação prática para atuação como **Solutions Architect**.

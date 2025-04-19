@@ -46,7 +46,6 @@ Resources:
 ---
 
 ## 🚀 Deploy via AWS Console
-
 1. Acesse AWS CloudFormation Console
 
 2. Clique em "Create stack"

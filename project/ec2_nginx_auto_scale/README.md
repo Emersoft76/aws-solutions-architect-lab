@@ -39,3 +39,14 @@ terraform init
 terraform plan
 terraform apply -auto-approve
 ```
+---
+
+## 🧪 Teste
+
+1. Acesse o DNS do ALB fornecido no output
+
+2. Recarregue várias vezes — veja diferentes instâncias servindo o conteúdo
+---
+
+📘 Próximo projeto sugerido:
+→ Lambda + API Gateway (Arquitetura Serverless)

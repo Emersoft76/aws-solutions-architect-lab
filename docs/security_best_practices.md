@@ -69,7 +69,7 @@ aws kms create-key --description "Chave para dados sensíveis"
 ---
 
 ## ✅ Checklist de Segurança na AWS
-
+```
 | Ação                                 | Verificado?  |
 |--------------------------------------|-------- -----|
 | Root user com MFA ativado            | ✅          |
@@ -78,6 +78,7 @@ aws kms create-key --description "Chave para dados sensíveis"
 | Buckets S3 privados por padrão       | ✅          |
 | SGs e NACLs restritivos              | ✅          |
 | Instâncias atualizadas e monitoradas | ✅          |
+```
 ---
 
 📘 Próximo passo sugerido:

@@ -30,6 +30,17 @@ This project implements IAM roles and policies for secure access control, follow
 ```
 ---
 
+## ✅ Estrutura de Arquivos
+```
+/projects/iam_roles_policies/
+├── main.tf
+├── variables.tf
+├── outputs.tf
+├── terraform.tfvars
+├── README.md
+```
+---
+
 ## ✅ Deploy
 ```
 terraform init

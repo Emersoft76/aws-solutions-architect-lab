@@ -31,3 +31,11 @@ This project provisions a high-availability EC2 infrastructure with Auto Scaling
 ├── user_data.sh
 ├── README.md
 ```
+---
+
+## ✅ Deploy
+```
+terraform init
+terraform plan
+terraform apply -auto-approve
+```

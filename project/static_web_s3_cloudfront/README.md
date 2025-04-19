@@ -28,14 +28,15 @@ This project automatically provisions a static website hosting infrastructure us
 ---
 
 ## ✅ Estrutura de Arquivos
-
+```
 /projects/static_web_s3_cloudfront/
 ├── main.tf
 ├── variables.tf
 ├── outputs.tf
 ├── terraform.tfvars
 ├── README.md
-
+```
+---
 
 ## ✅ Deploy
 ```

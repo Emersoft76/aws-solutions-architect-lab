@@ -106,7 +106,7 @@ This repository is designed as an educational and validation lab for professiona
 │   └── 📄 [ascii_architecture.md](./ascii/ascii_architecture.md)
 └── 📁 [.github/workflows](./.github/workflows/)
     └── 📄 Integrações e automações (ex: GitHub Pages)
-
+```
 ---
 
 ## 🧭 Diagrama ASCII • ASCII Architecture Map

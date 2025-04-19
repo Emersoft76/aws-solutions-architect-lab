@@ -21,11 +21,13 @@ This project provisions a high-availability EC2 infrastructure with Auto Scaling
 ```
 ---
 
-## 📁 Arquivos Terraform
+## ✅ Estrutura de Arquivos (padrão)
 
-user_data.sh (script de inicialização)
-  
-#!/bin/bash
-apt update -y
-apt install nginx -y
-echo "<h1>Servidor escalável OK</h1>" > /var/www/html/index.html
+/projects/ec2_nginx_auto_scale/
+├── main.tf
+├── variables.tf
+├── outputs.tf
+├── terraform.tfvars
+├── user_data.sh
+├── README.md
+

@@ -31,6 +31,12 @@ This project provisions a Python-based Lambda function and exposes it via Amazon
 ```
 ---
 
+## 🔧 Pré-deploy: Compactar função
+```
+zip lambda_function_payload.zip lambda_function.py
+```
+---
+
 ## 🚀 Deploy
 ```
 terraform init
@@ -41,6 +47,7 @@ terraform apply -auto-approve
 ## 🧪 Teste
 
 Abra a URL fornecida em api_url e veja a mensagem da Lambda.
+
 ---
 
 📘 Próximo projeto sugerido:

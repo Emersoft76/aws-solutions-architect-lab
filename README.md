@@ -70,6 +70,7 @@ This repository is designed as an educational and validation lab for professiona
 | 🛠️ RDS             | [docs.aws.amazon.com/rds](https://docs.aws.amazon.com/rds) |
 | 🌐 API Gateway     | [docs.aws.amazon.com/apigateway](https://docs.aws.amazon.com/apigateway) |
 ```
+
 ---
 
 ## 🚧 Projetos por Categoria • Projects by Category
@@ -84,8 +85,6 @@ This repository is designed as an educational and validation lab for professiona
 ├── cloudwatch_logs_alerts/             → Monitoramento + Alarmes + SNS
 ```
 ---
-
-## 🗂️ Estrutura do Projeto • Project Structure:
 
 /aws-solutions-architect-lab/
 ├── 📄 [README.md](./README.md)
@@ -104,32 +103,27 @@ This repository is designed as an educational and validation lab for professiona
 │   └── 📄 [ascii_architecture.md](./ascii/ascii_architecture.md)
 └── 📁 [.github/workflows](./.github/workflows/)
     └── 📄 Integrações e automações (ex: GitHub Pages)
-
 ---
 
 ## 🧭 Diagrama ASCII • ASCII Architecture Map
-
-Veja a representação visual completa de todos os componentes criados neste laboratório:
 
 → ascii_architecture.md
 
 ---
 
-🧠 Próximos Passos • Next Steps
+## 🧠 Próximos Passos • Next Steps
 
-* Modularizar os projetos Terraform
+    Modularizar os projetos Terraform
 
-* Adicionar pipelines CI/CD (GitHub Actions + CodePipeline)
+    Adicionar pipelines CI/CD (GitHub Actions + CodePipeline)
 
-* Expandir o uso de containers (ECS, EKS)
+    Expandir o uso de containers (ECS, EKS)
 
-* Publicar documentação com GitHub Pages (✅ já configurado)
+    Publicar documentação com GitHub Pages (✅ já configurado)
 
----
+  ---
 
-🤝 Contato & Créditos • Contact & Credits
-
-Desenvolvido por [@Emersoft76](https://github.com/Emersoft76)  
+  Desenvolvido por [@Emersoft76](https://github.com/Emersoft76)  
 _Gestor de Redes formado pela Universidade Paulista (UNIP), Brasil._  
 _Foco em arquiteturas seguras, escaláveis e práticas em ambientes de nuvem (AWS)._  
 

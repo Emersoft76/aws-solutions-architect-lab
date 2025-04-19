@@ -124,7 +124,7 @@ This repository is designed as an educational and validation lab for professiona
 
 ---
 
-## 🧠 Rodapé | Footer
+## 🤝 Contato & Créditos • Contact & Credits
 
 <div align="center">
 

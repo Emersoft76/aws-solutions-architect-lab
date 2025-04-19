@@ -27,8 +27,10 @@
 ## 📚 Índice • Table of Contents
 
 - [📦 Sobre o Projeto](#-sobre-o-projeto--about-the-project)
+- [🧭 Navegação](#-navegação--navigation)
 - [🛠️ Tecnologias Utilizadas](#-tecnologias-utilizadas--technologies-used)
 - [🚧 Projetos por Categoria](#-projetos-por-categoria--projects)
+- [🗂️ Estrutura do Projeto](#-estrutura-do-projeto--project-structure)
 - [🧭 Diagrama ASCII](#-diagrama-ascii--ascii-diagram)
 - [🧠 Próximos Passos](#-próximos-passos--next-steps)
 - [🤝 Contato & Créditos](#-contato--créditos)
@@ -40,6 +42,16 @@
 Este repositório foi idealizado como um laboratório educacional e validativo para profissionais que desejam simular arquiteturas reais na AWS, com foco em práticas recomendadas de **infraestrutura, segurança, automação e escalabilidade**.
 
 This repository is designed as an educational and validation lab for professionals simulating real-world AWS architectures with focus on **infrastructure, security, automation, and scalability**.
+
+---
+
+## 🧭 Navegação • Navigation
+
+- [README principal](./README.md)
+- [ascii_architecture.md (diagrama visual)](./ascii/ascii_architecture.md)
+- [Documentação técnica (pasta `/docs`)](./docs/)
+- [Projetos práticos (pasta `/projects`)](./projects/)
+- [Visual online (GitHub Pages)](https://Emersoft76.github.io/aws-solutions-architect-lab)
 
 ---
 
@@ -61,7 +73,8 @@ This repository is designed as an educational and validation lab for professiona
 ---
 
 ## 🚧 Projetos por Categoria • Projects by Category
-```
+
+```markdown
 /projects/
 ├── static_web_s3_cloudfront/           → Site estático com S3 + CDN
 ├── ec2_nginx_auto_scale/               → EC2 com Auto Scaling + Load Balancer
@@ -72,6 +85,28 @@ This repository is designed as an educational and validation lab for professiona
 ```
 ---
 
+## 🗂️ Estrutura do Projeto • Project Structure:
+
+/aws-solutions-architect-lab/
+├── 📄 [README.md](./README.md)
+├── 📁 [docs](./docs/)
+│   ├── 📄 [monitoring_logging.md](./docs/monitoring_logging.md)
+│   ├── 📄 [security_best_practices.md](./docs/security_best_practices.md)
+│   └── 📄 [scenario_architecture_examples.md](./docs/scenario_architecture_examples.md)
+├── 📁 [projects](./projects/)
+│   ├── 📁 [static_web_s3_cloudfront](./projects/static_web_s3_cloudfront/)
+│   ├── 📁 [ec2_nginx_auto_scale](./projects/ec2_nginx_auto_scale/)
+│   ├── 📁 [lambda_api_gateway](./projects/lambda_api_gateway/)
+│   ├── 📁 [terraform_vpc_rds](./projects/terraform_vpc_rds/)
+│   ├── 📁 [iam_roles_policies](./projects/iam_roles_policies/)
+│   └── 📁 [cloudwatch_logs_alerts](./projects/cloudwatch_logs_alerts/)
+├── 📁 [ascii](./ascii/)
+│   └── 📄 [ascii_architecture.md](./ascii/ascii_architecture.md)
+└── 📁 [.github/workflows](./.github/workflows/)
+    └── 📄 Integrações e automações (ex: GitHub Pages)
+
+---
+
 ## 🧭 Diagrama ASCII • ASCII Architecture Map
 
 Veja a representação visual completa de todos os componentes criados neste laboratório:
@@ -80,16 +115,7 @@ Veja a representação visual completa de todos os componentes criados neste lab
 
 ---
 
-## 📘 Documentação Técnica
-```
-/docs/
-├── monitoring_logging.md               → CloudWatch, Logs, Alarms
-├── security_best_practices.md          → Segurança na AWS (MFA, KMS, IAM)
-├── scenario_architecture_examples.md   → Modelos de arquitetura por tipo de aplicação
-```
----
-
-## 🧠 Próximos Passos • Next Steps
+🧠 Próximos Passos • Next Steps
 
 * Modularizar os projetos Terraform
 
@@ -97,7 +123,7 @@ Veja a representação visual completa de todos os componentes criados neste lab
 
 * Expandir o uso de containers (ECS, EKS)
 
-* Documentação visual com GitHub Pages (ativado ✅)
+* Publicar documentação com GitHub Pages (✅ já configurado)
 
 ---
 

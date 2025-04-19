@@ -86,7 +86,7 @@ This repository is designed as an educational and validation lab for professiona
 ---
 
 ## 🗂️ Estrutura do Projeto • Project Structure
-
+```
 /aws-solutions-architect-lab/
 ├── 📄 [README.md](./README.md)
 ├── 📁 [docs](./docs/)
@@ -103,7 +103,8 @@ This repository is designed as an educational and validation lab for professiona
 ├── 📁 [ascii](./ascii/)
 │   └── 📄 [ascii_architecture.md](./ascii/ascii_architecture.md)
 └── 📁 [.github/workflows](./.github/workflows/)
-    └── 📄 Integrações e automações (ex: GitHub Pages)
+     └── 📄 Integrações e automações (ex: GitHub Pages)
+ ```
 ---
 
 ## 🧭 Diagrama ASCII • ASCII Architecture Map

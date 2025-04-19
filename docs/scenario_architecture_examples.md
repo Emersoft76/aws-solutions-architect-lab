@@ -19,3 +19,60 @@ This document outlines several architecture scenarios based on AWS best practice
 | IAM granular + políticas customizadas | Controle de acesso refinado por função e recurso               | `projects/iam_roles_policies/`               |
 | Logs e alarmes com CloudWatch         | Monitoramento em tempo real + alertas críticos                 | `projects/cloudwatch_logs_alerts/`           |
 ```
+---
+
+## 🧠 Padrões Utilizados
+
+* Multi-AZ para disponibilidade
+
+* Múltiplas subnets (privadas/públicas)
+
+* Autoscaling groups
+
+* Load balancing (Application Load Balancer)
+
+* Criptografia em repouso (S3, RDS, EBS)
+
+* IAM com least privilege
+
+* Logging centralizado
+
+* Scripts e IaC versionados
+---
+
+## 📐 Diagrama Exemplo: Arquitetura Web Redundante
+
+        [User]         
+           |              
+   +---------------+       
+   |  CloudFront   |       
+   +-------+-------+       
+           |              
+   +-------v--------+     
+   |   ALB (HTTP)   |     
+   +---+-------+----+     
+       |       |          
++------v+   +--v------+    
+| EC2 #1 |  | EC2 #2 |  <- Auto Scaling
++-------+   +-------+     
+    |           |         
++---v-----------v---+     
+|  Private Subnet   |     
+|  + RDS + Logs     |     
++-------------------+     
+---
+
+## 🎯 Considerações Finais
+
+Este repositório busca aproximar a realidade de um Solutions Architect AWS, promovendo conhecimento técnico aplicado em cenários reais de negócios.
+
+This lab aims to simulate the real-world responsibilities of an AWS Solutions Architect, providing technical depth and practical infrastructure knowledge.
+---
+
+📘 Fim da pasta /docs/ — Próximos passos:
+
+* Criar os projetos em /projects/
+
+* Gerar scripts úteis em /scripts/
+
+* Construir o diagrama ASCII geral da arquitetura

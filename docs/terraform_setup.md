@@ -9,14 +9,14 @@ This guide provides a hands-on example using Terraform to provision AWS resource
 
 ## ✅ Estrutura Inicial do Projeto
 
-```
+
 terraform-aws-lab/
 ├── main.tf
 ├── variables.tf
 ├── outputs.tf
 ├── terraform.tfvars
 └── provider.tf
-```
+
 ---
 
 ## 1️⃣ Inicialização do Ambiente Terraform

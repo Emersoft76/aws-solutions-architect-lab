@@ -79,7 +79,7 @@ aws cloudformation update-stack \
 ```
 ---
 
-##🧹 Remoção
+## 🧹 Remoção
 ```
 aws cloudformation delete-stack \
   --stack-name lab-stack-demo
@@ -96,5 +96,5 @@ aws cloudformation delete-stack \
 | StackSets                | Usar StackSets para múltiplas regiões/contas       |
 ---
 
-## 📘 Próximo passo sugerido:
+📘 Próximo passo sugerido:
 → CI/CD Pipelines com GitHub Actions e Jenkins

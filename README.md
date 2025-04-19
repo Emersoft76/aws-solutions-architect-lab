@@ -129,6 +129,7 @@ This repository is designed as an educational and validation lab for professiona
 <div align="center">
 
 _"Do cabeamento físico ao provisionamento em nuvem, a conectividade sempre foi a base das melhores soluções."_  
+Desenvolvido por [@Emersoft76](https://github.com/Emersoft76)  
 **Formado em Gerenciamento de Redes de Computadores – UNIP (Brasília/Brasil), 2009.**  
 **Soluções modernas com base sólida em redes, cloud e automação.**
 

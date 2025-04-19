@@ -22,7 +22,7 @@ This project provisions a high-availability EC2 infrastructure with Auto Scaling
 ---
 
 ## ✅ Estrutura de Arquivos (padrão)
-
+```
 /projects/ec2_nginx_auto_scale/
 ├── main.tf
 ├── variables.tf
@@ -30,4 +30,4 @@ This project provisions a high-availability EC2 infrastructure with Auto Scaling
 ├── terraform.tfvars
 ├── user_data.sh
 ├── README.md
-
+```

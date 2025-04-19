@@ -57,7 +57,7 @@ This repository is designed as an educational and validation lab for professiona
 
 ## 🛠️ Tecnologias Utilizadas • Technologies Used
 
-```markdown
+
 | Tecnologia         | Link Oficial                           |
 |--------------------|-----------------------------------------|
 | ☁️ AWS             | [aws.amazon.com](https://aws.amazon.com) |
@@ -69,7 +69,6 @@ This repository is designed as an educational and validation lab for professiona
 | 🚀 Lambda          | [docs.aws.amazon.com/lambda](https://docs.aws.amazon.com/lambda) |
 | 🛠️ RDS             | [docs.aws.amazon.com/rds](https://docs.aws.amazon.com/rds) |
 | 🌐 API Gateway     | [docs.aws.amazon.com/apigateway](https://docs.aws.amazon.com/apigateway) |
-```
 
 ---
 

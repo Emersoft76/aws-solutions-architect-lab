@@ -45,6 +45,7 @@ This repository is designed as an educational and validation lab for professiona
 ---
 
 ## 🚧 Projetos por Categoria • Projects by Category
+```
 /projects/
 ├── static_web_s3_cloudfront/           → Site estático com S3 + CDN
 ├── ec2_nginx_auto_scale/               → EC2 com Auto Scaling + Load Balancer
@@ -52,7 +53,7 @@ This repository is designed as an educational and validation lab for professiona
 ├── terraform_vpc_rds/                  → VPC com RDS em subnet privada
 ├── iam_roles_policies/                 → IAM com políticas e least privilege
 ├── cloudwatch_logs_alerts/             → Monitoramento + Alarmes + SNS
-
+```
 ---
 
 ## 🧭 Diagrama ASCII • ASCII Architecture Map

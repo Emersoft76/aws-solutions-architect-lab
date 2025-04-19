@@ -59,3 +59,54 @@ Etapas comuns:
 | Source               | GitHub ou S3                               |
 | Build                | AWS CodeBuild executando `buildspec.yml`   |
 | Deploy               | CloudFormation, Elastic Beanstalk, etc     |
+
+buildspec.yml
+```
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "Instalando dependências"
+  build:
+    commands:
+      - echo "Executando deploy Terraform"
+      - terraform init
+      - terraform apply -auto-approve
+```
+---
+
+## ✅ Jenkins (Extra)
+
+Pipeline freestyle ou via Jenkinsfile:
+```
+pipeline {
+  agent any
+  stages {
+    stage('Init') {
+      steps {
+        sh 'terraform init'
+      }
+    }
+    stage('Apply') {
+      steps {
+        sh 'terraform apply -auto-approve'
+      }
+    }
+  }
+}
+```
+---
+
+## 📌 Dicas e Boas Práticas
+
+| Prática                         | Benefício                                      |
+|---------------------------------|------------------------------------------------|
+| Secrets criptografados          | Segurança na automação                         |
+| Commits atômicos e pipelines curtos | Feedback rápido e versionamento controlado |
+| Validar antes de aplicar        | Reduz risco de quebras                         |
+| Logs armazenados (S3/CloudWatch) | Auditoria e rastreabilidade                   |
+---
+
+📘 Próximo passo sugerido:
+→ Monitoramento e Logging na AWS

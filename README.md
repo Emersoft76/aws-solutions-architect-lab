@@ -2,10 +2,24 @@
 <p align="center"><strong>Build, Simulate and Master Cloud Architectures</strong></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/AWS-Cloud-orange?logo=amazonaws&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Terraform-IaC-7B42BC?logo=terraform&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Linux-Ubuntu-4EAA25?logo=ubuntu&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Solutions-Architect-green?style=for-the-badge" />
+  <a href="https://aws.amazon.com/" target="_blank">
+    <img src="https://img.shields.io/badge/AWS-Cloud-orange?logo=amazonaws&style=for-the-badge" />
+  </a>
+  <a href="https://www.terraform.io/" target="_blank">
+    <img src="https://img.shields.io/badge/Terraform-IaC-7B42BC?logo=terraform&style=for-the-badge" />
+  </a>
+  <a href="https://docs.aws.amazon.com/lambda/" target="_blank">
+    <img src="https://img.shields.io/badge/Serverless-Lambda-yellow?logo=awslambda&style=for-the-badge" />
+  </a>
+  <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html" target="_blank">
+    <img src="https://img.shields.io/badge/Security-IAM-blue?logo=amazonaws&style=for-the-badge" />
+  </a>
+  <a href="https://docs.aws.amazon.com/vpc/" target="_blank">
+    <img src="https://img.shields.io/badge/Networking-VPC-green?style=for-the-badge" />
+  </a>
+  <a href="https://Emersoft76.github.io/aws-solutions-architect-lab" target="_blank">
+    <img src="https://img.shields.io/badge/Docs-Online-success?logo=github&style=for-the-badge" />
+  </a>
 </p>
 
 ---
@@ -66,15 +80,24 @@ Veja a representação visual completa de todos os componentes criados neste lab
 
 ---
 
+## 📘 Documentação Técnica
+```
+/docs/
+├── monitoring_logging.md               → CloudWatch, Logs, Alarms
+├── security_best_practices.md          → Segurança na AWS (MFA, KMS, IAM)
+├── scenario_architecture_examples.md   → Modelos de arquitetura por tipo de aplicação
+```
+---
+
 ## 🧠 Próximos Passos • Next Steps
 
-* Criar módulos Terraform reutilizáveis
+* Modularizar os projetos Terraform
 
-* Adicionar camada de CI/CD com CodePipeline
+* Adicionar pipelines CI/CD (GitHub Actions + CodePipeline)
 
-* Expandir integração com containers (ECS/EKS)
+* Expandir o uso de containers (ECS, EKS)
 
-* Publicar documentação no GitHub Pages
+* Documentação visual com GitHub Pages (ativado ✅)
 
 ---
 

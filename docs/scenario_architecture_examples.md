@@ -68,6 +68,7 @@ This document outlines several architecture scenarios based on AWS best practice
 Este repositório busca aproximar a realidade de um Solutions Architect AWS, promovendo conhecimento técnico aplicado em cenários reais de negócios.
 
 This lab aims to simulate the real-world responsibilities of an AWS Solutions Architect, providing technical depth and practical infrastructure knowledge.
+
 ---
 
 📘 Fim da pasta /docs/ — Próximos passos:

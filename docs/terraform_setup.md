@@ -86,6 +86,6 @@ terraform destroy
 ---
 
 ## 📘 Próximo passo sugerido
-
 → Introdução ao CloudFormation
+
 ---

@@ -88,6 +88,7 @@ This repository is designed as an educational and validation lab for professiona
 
 ## 🗂️ Estrutura do Projeto • Project Structure
 
+```markdown
 /aws-solutions-architect-lab/
 ├── 📄 [README.md](./README.md)
 ├── 📁 [docs](./docs/)

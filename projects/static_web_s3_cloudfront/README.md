@@ -16,17 +16,6 @@ This project automatically provisions a static website hosting infrastructure us
 
 ---
 
-## 🛠️ Pré-requisitos
-
-```markdown
-| Requisito        | Descrição                                |
-|------------------|------------------------------------------|
-| AWS CLI          | Autenticado com `aws configure`          |
-| Terraform v1.4+  | Instalado e funcionando (`terraform -v`) |
-| Arquivos do site | Um index.html simples para testar        |
-```
----
-
 ## ✅ Estrutura de Arquivos
 ```
 /projects/static_web_s3_cloudfront/
@@ -35,6 +24,17 @@ This project automatically provisions a static website hosting infrastructure us
 ├── outputs.tf
 ├── terraform.tfvars
 ├── README.md
+```
+---
+
+## 🛠️ Pré-requisitos
+
+```markdown
+| Requisito        | Descrição                                |
+|------------------|------------------------------------------|
+| AWS CLI          | Autenticado com `aws configure`          |
+| Terraform v1.4+  | Instalado e funcionando (`terraform -v`) |
+| Arquivos do site | Um index.html simples para testar        |
 ```
 ---
 

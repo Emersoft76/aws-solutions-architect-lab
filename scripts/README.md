@@ -44,6 +44,7 @@ chmod +x deploy_pipeline.sh
 
 > Execute com: `powershell ./test_scenarios.ps1`
 
+---
 
 ## 📘 Próximo passo sugerido
 

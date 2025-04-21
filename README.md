@@ -49,15 +49,16 @@ This repository is designed as an educational and validation lab for professiona
 
 - [README principal](./README.md)
 - [ascii_architecture.md (diagrama visual)](./ascii/ascii_architecture.md)
-- [Documentação técnica (pasta `/docs`)](./docs/)
-- [Projetos práticos (pasta `/projects`)](./projects/)
+- [Documentação técnica (`/docs`)](./docs/)
+- [Projetos por categoria (`/projects`)](./projects/)
+- [Scripts e automações (`/scripts`)](./scripts/)
 - [Visual online (GitHub Pages)](https://Emersoft76.github.io/aws-solutions-architect-lab)
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas • Technologies Used
 
-
+```markdown
 | Tecnologia         | Link Oficial                           |
 |--------------------|-----------------------------------------|
 | ☁️ AWS             | [aws.amazon.com](https://aws.amazon.com) |
@@ -69,6 +70,7 @@ This repository is designed as an educational and validation lab for professiona
 | 🚀 Lambda          | [docs.aws.amazon.com/lambda](https://docs.aws.amazon.com/lambda) |
 | 🛠️ RDS             | [docs.aws.amazon.com/rds](https://docs.aws.amazon.com/rds) |
 | 🌐 API Gateway     | [docs.aws.amazon.com/apigateway](https://docs.aws.amazon.com/apigateway) |
+```
 
 ---
 
@@ -76,36 +78,47 @@ This repository is designed as an educational and validation lab for professiona
 
 ```markdown
 /projects/
-├── static_web_s3_cloudfront/           → Site estático com S3 + CDN
-├── ec2_nginx_auto_scale/               → EC2 com Auto Scaling + Load Balancer
-├── lambda_api_gateway/                 → Função Lambda + API Gateway (Serverless)
-├── terraform_vpc_rds/                  → VPC com RDS em subnet privada
-├── iam_roles_policies/                 → IAM com políticas e least privilege
-├── cloudwatch_logs_alerts/             → Monitoramento + Alarmes + SNS
+├── 🏗️ static_web_s3_cloudfront/        → Site estático com S3 + CDN
+├── 🛠️ ec2_nginx_auto_scale/            → EC2 com Auto Scaling + Load Balancer
+├── ⚙️ lambda_api_gateway/              → Lambda + API Gateway (Serverless)
+├── 🧩 terraform_vpc_rds/               → VPC com RDS (MySQL)
+├── 🪪 iam_roles_policies/              → IAM com políticas granulares
+├── 📡 cloudwatch_logs_alerts/          → CloudWatch Logs + SNS (Monitoramento)
 ```
 ---
 
 ## 🗂️ Estrutura do Projeto • Project Structure
-
+```
 /aws-solutions-architect-lab/
-├── 📄 [README.md](./README.md)
-├── 📁 [docs](./docs/)
-│   ├── 📄 [monitoring_logging.md](./docs/monitoring_logging.md)
-│   ├── 📄 [security_best_practices.md](./docs/security_best_practices.md)
-│   ├── 📄 [scenario_architecture_examples.md](./docs/scenario_architecture_examples.md)
-│   └── 📄 [skills_mapped.md](./docs/skills_mapped.md)
-├── 📁 [projects](./projects/)
-│   ├── 📁 [static_web_s3_cloudfront](./projects/static_web_s3_cloudfront/)
-│   ├── 📁 [ec2_nginx_auto_scale](./projects/ec2_nginx_auto_scale/)
-│   ├── 📁 [lambda_api_gateway](./projects/lambda_api_gateway/)
-│   ├── 📁 [terraform_vpc_rds](./projects/terraform_vpc_rds/)
-│   ├── 📁 [iam_roles_policies](./projects/iam_roles_policies/)
-│   └── 📁 [cloudwatch_logs_alerts](./projects/cloudwatch_logs_alerts/)
-├── 📁 [ascii](./ascii/)
-│   └── 📄 [ascii_architecture.md](./ascii/ascii_architecture.md)
-└── 📁 [.github/workflows](./.github/workflows/)
-    └── 📄 Integrações e automações (ex: GitHub Pages)
----
+├── 📄 README.md
+├── 📁 docs/
+│   ├── 🧠 skills_mapped.md
+│   ├── 🌐 aws_cli_setup.md
+│   ├── 🛠️ terraform_setup.md
+│   ├── 🧩 cloudformation_basics.md
+│   ├── 🚀 cicd_pipelines.md
+│   ├── 📊 monitoring_logging.md
+│   ├── 🔐 security_best_practices.md
+│   └── 📄 scenario_architecture_examples.md
+├── 📁 projects/
+│   ├── 🏗️ static_web_s3_cloudfront/
+│   ├── 🛠️ ec2_nginx_auto_scale/
+│   ├── ⚙️ lambda_api_gateway/
+│   ├── 🧩 terraform_vpc_rds/
+│   ├── 🪪 iam_roles_policies/
+│   └── 📡 cloudwatch_logs_alerts/
+├── 📁 scripts/
+│   ├── 🧪 test_scenarios.sh
+│   ├── 📤 deploy_pipeline.sh
+│   └── 📄 README.md
+├── 📁 ascii/
+│   └── 📄 ascii_architecture.md
+├── 📁 assets/
+│   └── 📄 diagramas, visuais, imagens
+└── 📁 .github/
+    └── workflows/
+        └── cicd_sample.yml
+```
 
 ## 🧭 Diagrama ASCII • ASCII Architecture Map
 
@@ -115,23 +128,23 @@ This repository is designed as an educational and validation lab for professiona
 
 ## 🧠 Próximos Passos • Next Steps
 
-* Modularizar os projetos Terraform
+* Modularizar ainda mais os projetos Terraform
 
-* Adicionar pipelines CI/CD (GitHub Actions + CodePipeline)
+* Implementar pipelines CI/CD com CodePipeline e GitHub Actions
 
-* Expandir o uso de containers (ECS, EKS)
+* Adicionar uso de EKS e ECS (containers)
 
-* Publicar documentação com GitHub Pages (✅ já configurado)
+* Ampliar a documentação visual e pública via GitHub Pages
 
 ---
 
 ## 🤝 Contato & Créditos • Contact & Credits
 
-<div align="center">
+<p align="center">
 
-_"Do cabeamento físico ao provisionamento em nuvem, a conectividade sempre foi a base das melhores soluções."_  
-Desenvolvido por [@Emersoft76](https://github.com/Emersoft76)  
-**Formado em Gerenciamento de Redes de Computadores – UNIP (Brasília/Brasil), 2009.**  
-**Soluções modernas com base sólida em redes, cloud e automação.**
-
-</div>
+<strong>🌐 Do cabeamento físico ao provisionamento em nuvem, a conectividade sempre foi a base das melhores soluções.</strong>
+Desenvolvido por <a href="https://github.com/Emersoft76">@Emersoft76</a>
+Formado em Gerenciamento de Redes de Computadores – UNIP (Brasília/Brasil), 2009.
+Soluções modernas com base sólida em redes, cloud e automação.
+</p> ```
+---

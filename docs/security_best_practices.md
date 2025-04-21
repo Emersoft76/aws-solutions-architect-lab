@@ -30,7 +30,8 @@ This guide outlines essential practices to secure your AWS infrastructure, with 
 
 * Rotacionar chaves de acesso periodicamente
 
-Exemplo de política restritiva (S3 read-only)
+Exemplo de política restritiva (S3 read-only):
+
 ```json
 {
   "Version": "2012-10-17",

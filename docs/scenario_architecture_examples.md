@@ -17,7 +17,7 @@ This document outlines several architecture scenarios based on AWS best practice
 | Lambda + API Gateway                  | API Serverless com baixo custo e alta performance              | `projects/lambda_api_gateway/`               |
 | VPC customizada com RDS               | Isolamento de rede + banco relacional em sub-rede privada      | `projects/terraform_vpc_rds/`                |
 | IAM granular + políticas customizadas | Controle de acesso refinado por função e recurso               | `projects/iam_roles_policies/`               |
-| Logs e alarmes com CloudWatch         | Monitoramento em tempo real + alertas críticos                 | `projects/cloudwatch_logs_alerts/`           |
+| Logs e alarmes com CloudWatch         | Monitoramento em tempo real + alertas críticos                 | [`projects/cloudwatch_logs_alerts/`](https://github.com/Emersoft76/aws-solutions-architect-lab/tree/main/projects/static_web_s3_cloudfront)           |
 ```
 ---
 

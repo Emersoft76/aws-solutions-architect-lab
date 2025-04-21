@@ -7,6 +7,17 @@ Este projeto cria uma VPC customizada com subnets públicas e privadas, roteamen
 This project creates a custom VPC with public/private subnets, routing tables, internet gateway, and a MySQL RDS instance deployed in a private subnet.
 
 ---
+```
+## ✅ Estrutura de Arquivos
+
+/projects/terraform_vpc_rds/
+├── main.tf
+├── variables.tf
+├── outputs.tf
+├── terraform.tfvars
+├── README.md
+```
+---
 
 ## ✅ Recursos AWS Criados
 

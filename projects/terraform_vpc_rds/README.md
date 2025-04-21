@@ -47,3 +47,7 @@ terraform apply -auto-approve
 2. Use o endpoint exibido nos outputs
 
 3. Certifique-se de estar em uma máquina com acesso à VPC
+---
+
+📘 Próximo projeto sugerido:
+→ IAM com Políticas Granulares e Controle de Acesso

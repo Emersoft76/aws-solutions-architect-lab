@@ -109,13 +109,8 @@ This repository is designed as an educational and validation lab for professiona
 │   ├── 🧪 test_scenarios.sh
 │   ├── 📤 deploy_pipeline.sh
 │   └── 📄 README.md
-├── 📁 ascii/
-│   └── 📄 ascii_architecture.md
-├── 📁 assets/
-│   └── 📄 diagramas, visuais, imagens
-└── 📁 .github/
-    └── workflows/
-        └── cicd_sample.yml
+└── 📁 ascii/
+    └── 📄 ascii_architecture.md
 ```
 
 ## 🧭 Diagrama ASCII • ASCII Architecture Map

@@ -8,6 +8,18 @@ This project provisions a high-availability EC2 infrastructure with Auto Scaling
 
 ---
 
+## ✅ Estrutura de Arquivos (padrão)
+```
+/projects/ec2_nginx_auto_scale/
+├── main.tf
+├── variables.tf
+├── outputs.tf
+├── terraform.tfvars
+├── user_data.sh
+├── README.md
+```
+---
+
 ## ✅ Componentes AWS Utilizados
 
 ```markdown
@@ -18,18 +30,6 @@ This project provisions a high-availability EC2 infrastructure with Auto Scaling
 | ALB              | Balanceamento de carga                    |
 | Launch Template  | Base para instâncias EC2                  |
 | Security Groups  | Regras de firewall                        |
-```
----
-
-## ✅ Estrutura de Arquivos (padrão)
-```
-/projects/ec2_nginx_auto_scale/
-├── main.tf
-├── variables.tf
-├── outputs.tf
-├── terraform.tfvars
-├── user_data.sh
-├── README.md
 ```
 ---
 

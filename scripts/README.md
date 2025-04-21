@@ -43,10 +43,9 @@ chmod +x deploy_pipeline.sh
 > Execute com: `powershell ./test_scenarios.ps1`
 ---
 
-## 📘 Próximo passo sugerido
+📘 Próximo passo sugerido
 
 → Integrar esses scripts a um GitHub Action customizado
-
 → Incluir testes automatizados de retorno HTTP, validação de RDS, etc.
 
 ---

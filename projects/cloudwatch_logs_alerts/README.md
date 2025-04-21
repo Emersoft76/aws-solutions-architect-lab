@@ -53,6 +53,8 @@ Importante: Confirme o e-mail recebido via SNS para ativar as notificações.
 📘 Próximo passo sugerido:
 → ascii_architecture.md – Diagrama geral do laboratório
 
+---
+
 
 
 

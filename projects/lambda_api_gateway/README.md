@@ -8,17 +8,6 @@ This project provisions a Python-based Lambda function and exposes it via Amazon
 
 ---
 
-## ✅ Serviços Utilizados
-
-```
-| Serviço          | Função                                   |
-|------------------|------------------------------------------|
-| AWS Lambda       | Execução da função backend               |
-| API Gateway      | Exposição da função como API REST        |
-| IAM Role         | Permissão de execução da Lambda          |
-```
----
-
 ## ✅ Estrutura de Arquivos
 ```
 /projects/lambda_api_gateway/
@@ -28,6 +17,17 @@ This project provisions a Python-based Lambda function and exposes it via Amazon
 ├── terraform.tfvars
 ├── lambda_function.py
 ├── README.md
+```
+---
+
+## ✅ Serviços Utilizados
+
+```
+| Serviço          | Função                                   |
+|------------------|------------------------------------------|
+| AWS Lambda       | Execução da função backend               |
+| API Gateway      | Exposição da função como API REST        |
+| IAM Role         | Permissão de execução da Lambda          |
 ```
 ---
 

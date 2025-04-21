@@ -53,3 +53,16 @@
   - **Projeto 6:** CloudWatch Logs + SNS
 ---
 
+## ✅ Diagrama relacionado com os projetos:
+
+```
+| Projeto                          | Componentes Visualizados                  |
+|----------------------------------|-------------------------------------------|
+| static_web_s3_cloudfront         | S3, CloudFront, (Route 53 - opcional)     |
+| ec2_nginx_auto_scale             | ALB, Auto Scaling, EC2                    |
+| lambda_api_gateway               | Lambda + API Gateway                      |
+| terraform_vpc_rds                | VPC, Subnets privadas, RDS                |
+| iam_roles_policies               | IAM Policies + Least Privilege            |
+| cloudwatch_logs_alerts           | CloudWatch, Alarms, SNS                   |
+```
+---

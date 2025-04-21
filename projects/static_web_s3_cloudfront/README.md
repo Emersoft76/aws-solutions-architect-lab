@@ -8,14 +8,6 @@ This project automatically provisions a static website hosting infrastructure us
 
 ---
 
-## 🚀 Serviços AWS Utilizados
-
-- **S3**: Armazenamento de arquivos estáticos (HTML, CSS, JS)
-- **CloudFront**: CDN com HTTPS
-- **Route 53 (opcional)**: Custom domain (não configurado por padrão)
-
----
-
 ## ✅ Estrutura de Arquivos
 ```
 /projects/static_web_s3_cloudfront/
@@ -25,6 +17,13 @@ This project automatically provisions a static website hosting infrastructure us
 ├── terraform.tfvars
 ├── README.md
 ```
+---
+
+## 🚀 Serviços AWS Utilizados
+
+- **S3**: Armazenamento de arquivos estáticos (HTML, CSS, JS)
+- **CloudFront**: CDN com HTTPS
+- **Route 53 (opcional)**: Custom domain (não configurado por padrão)
 ---
 
 ## 🛠️ Pré-requisitos

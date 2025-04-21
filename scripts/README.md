@@ -2,6 +2,10 @@
 
 Este diretório contém scripts úteis para testar, validar e implantar partes da infraestrutura definida nos projetos deste laboratório.
 
+<p align="center">
+  <img src="https://github.com/Emersoft76/aws-solutions-architect-lab/actions/workflows/test_and_deploy.yml/badge.svg" alt="AWS CI Pipeline Status">
+</p>
+
 ---
 
 ## 📄 Lista de Scripts / Script List

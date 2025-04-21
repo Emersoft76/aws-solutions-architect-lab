@@ -49,6 +49,7 @@ jobs:
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
 ```
 Nota: Configure suas credenciais na aba Settings > Secrets and variables do GitHub.
+
 ---
 
 ## ✅ Pipeline com AWS CodePipeline

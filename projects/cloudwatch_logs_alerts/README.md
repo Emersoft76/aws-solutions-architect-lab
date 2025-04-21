@@ -8,17 +8,6 @@ This project builds a monitoring architecture with CloudWatch metrics, alarms an
 
 ---
 
-## ✅ Objetivos Técnicos
-
-```markdown
-| Componente       | Função                                           |
-|------------------|--------------------------------------------------|
-| CloudWatch Logs  | Coleta de logs de instâncias ou aplicações       |
-| CloudWatch Alarms| Gatilhos para eventos críticos ou thresholds     |
-| SNS Topics       | Envio de alertas por e-mail                      |
-```
----
-
 ## ✅ Estrutura de Arquivos
 ```
 /projects/cloudwatch_logs_alerts/
@@ -27,6 +16,17 @@ This project builds a monitoring architecture with CloudWatch metrics, alarms an
 ├── outputs.tf
 ├── terraform.tfvars
 ├── README.md
+```
+---
+
+## ✅ Objetivos Técnicos
+
+```markdown
+| Componente       | Função                                           |
+|------------------|--------------------------------------------------|
+| CloudWatch Logs  | Coleta de logs de instâncias ou aplicações       |
+| CloudWatch Alarms| Gatilhos para eventos críticos ou thresholds     |
+| SNS Topics       | Envio de alertas por e-mail                      |
 ```
 ---
 

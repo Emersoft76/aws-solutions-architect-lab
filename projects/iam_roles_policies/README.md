@@ -8,6 +8,17 @@ This project implements IAM roles and policies for secure access control, follow
 
 ---
 
+## ✅ Estrutura de Arquivos
+```
+/projects/iam_roles_policies/
+├── main.tf
+├── variables.tf
+├── outputs.tf
+├── terraform.tfvars
+├── README.md
+```
+---
+
 ## ✅ Objetivos do Projeto
 
 ```markdown
@@ -27,17 +38,6 @@ This project implements IAM roles and policies for secure access control, follow
 | Tags em usuários e roles         | Rastreabilidade e controle               |
 | MFA para console                 | Acesso seguro em ambientes críticos      |
 | Segregação por grupos/políticas  | Gestão mais limpa e escalável            |
-```
----
-
-## ✅ Estrutura de Arquivos
-```
-/projects/iam_roles_policies/
-├── main.tf
-├── variables.tf
-├── outputs.tf
-├── terraform.tfvars
-├── README.md
 ```
 ---
 

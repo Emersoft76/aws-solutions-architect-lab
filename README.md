@@ -144,5 +144,5 @@ This repository is designed as an educational and validation lab for professiona
 Desenvolvido por <a href="https://github.com/Emersoft76">@Emersoft76</a>
 Formado em Gerenciamento de Redes de Computadores – UNIP (Brasília/Brasil), 2009.
 Soluções modernas com base sólida em redes, cloud e automação.
-</p> ```
+</p>
 ---

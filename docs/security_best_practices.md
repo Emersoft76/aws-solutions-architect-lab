@@ -71,8 +71,8 @@ aws kms create-key --description "Chave para dados sensíveis"
 
 ## ✅ Checklist de Segurança na AWS
 ```
-| Ação                                 | Verificado?  |
-|--------------------------------------|--------------|
+| Ação                                 | Verificado? |
+|--------------------------------------|-------------|
 | Root user com MFA ativado            | ✅          |
 | IAM users/grupos segmentados         | ✅          |
 | Logging com CloudTrail habilitado    | ✅          |

@@ -33,6 +33,18 @@ chmod +x deploy_pipeline.sh
 ```
 ---
 
+## 🪟 Versões para Windows (PowerShell)
+
+| Script PowerShell            | Função                                               |
+|-----------------------------|------------------------------------------------------|
+| `test_scenarios.ps1`        | Executa os testes usando AWS CLI no Windows          |
+| `deploy_pipeline.ps1`       | Aciona uma pipeline no AWS CodePipeline (Windows)    |
+
+---
+
+> Execute com: `powershell ./test_scenarios.ps1`
+
+
 ## 📘 Próximo passo sugerido
 
 → Integrar esses scripts a um GitHub Action customizado

@@ -46,6 +46,7 @@ chmod +x deploy_pipeline.sh
 ## 📘 Próximo passo sugerido
 
 → Integrar esses scripts a um GitHub Action customizado
+
 → Incluir testes automatizados de retorno HTTP, validação de RDS, etc.
 
 ---
